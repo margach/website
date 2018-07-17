@@ -85,6 +85,7 @@ independently from the configuration by the cluster.
 ### Examples
 
 Create the objects defined in a configuration file:
+The flag ```sh -f``` stands for filename used to create the resource.
 
 ```sh
 kubectl create -f nginx.yaml
